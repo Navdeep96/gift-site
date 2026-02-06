@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Valentine 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🎵 Background Music -->
+<audio id="bgMusic" loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-tenderness.mp3" type="audio/mpeg">
+</audio>
+
+<div class="card">
+    <h1>Happy Valentine’s Day 💖</h1>
+    <p>To my loving spouse,<br>You are my forever Valentine ❤️</p>
+
+    <button onclick="toggleMusic()">🎵 Play / Pause Music</button>
+
+    <!-- Countdown -->
+    <div class="countdown" id="countdown"></div>
+
+    <button onclick="showQuiz()">💝 Unlock Your Gift</button>
+
+    <!-- Quiz Section -->
+    <div class="quiz hidden" id="quiz">
+        <p><strong>Quick Love Quiz 💕</strong></p>
+        <p>Who loves you the most?</p>
+
+        <button onclick="correctAnswer()">You 💖</button>
+        <button onclick="correctAnswer()">Me 😘</button>
+        <button onclick="correctAnswer()">Both Forever 💞</button>
+    </div>
+
+    <!-- Gift Message -->
+    <div class="gift hidden" id="gift">
+        🎁 Surprise!  
+        <br>My gift is <strong>my love, loyalty, and a lifetime with you</strong> 💍  
+        <br>Thank you for being my everything 💕
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
