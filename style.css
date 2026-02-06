@@ -53,12 +53,6 @@ button:hover {
     display: none;
 }
 
-.countdown {
-    font-size: 1.1rem;
-    margin: 15px 0;
-    font-weight: bold;
-}
-
 .quiz button {
     display: block;
     width: 100%;
@@ -72,8 +66,14 @@ button:hover {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Floating hearts */
@@ -86,6 +86,12 @@ button:hover {
 }
 
 @keyframes floatUp {
-    0% { transform: translateY(0) scale(1); opacity: 0.8; }
-    100% { transform: translateY(-120vh) scale(1.5); opacity: 0; }
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-120vh) scale(1.5);
+        opacity: 0;
+    }
 }
